@@ -45,3 +45,5 @@ How to run:
 If you want to see the logs, run `sudo tmux attach -t keyboardEmulationAndZwiftClickHandling`
 
 If you disconnect the bluetooth from the end device, in order for it to start working without restarting, first press a button on zwift click, it will then detect that no bluetooth end device is conneted and start listening for new connections then connect back to the RpiVirtualKeyboard and everything should work.
+
+PS. That is how it SHOULD be and work. I haven't tested it yet, since I have a working state from the tinkering phase, before the creation of this repo.
